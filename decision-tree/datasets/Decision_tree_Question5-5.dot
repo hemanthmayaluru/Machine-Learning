@@ -1,0 +1,28 @@
+digraph Tree {
+node [shape=box, style="filled", color="black"] ;
+0 [ label="pPKCG[382 319]" , fillcolor="#ffffff"] ;
+1 [ label="Ubiquitin[338 181]" , fillcolor="#ffffff"] ;
+0->1 [labeldistance=2.5, labelangle=45, headlabel="<2.0518"] ;
+3 [ label="pNR2A[194 170]" , fillcolor="#ffffff"] ;
+1->3 [labeldistance=2.5, labelangle=45, headlabel="<1.3696"] ;
+5 [ label="DYRK1A[31 0]" , fillcolor="#99ff99"] ;
+3->5 [labeldistance=2.5, labelangle=45, headlabel="<0.4669"] ;
+6 [ label="pNUMB[163 170]" , fillcolor="#ff9999"] ;
+3->6 [labeldistance=2.5, labelangle=-45, headlabel=">0.4669"] ;
+4 [ label="pCAMKII[144 11]" , fillcolor="#ffffff"] ;
+1->4 [labeldistance=2.5, labelangle=-45, headlabel=">1.3696"] ;
+7 [ label="DYRK1A[35 11]" , fillcolor="#99ff99"] ;
+4->7 [labeldistance=2.5, labelangle=45, headlabel="<4.26365"] ;
+8 [ label="DYRK1A[109 0]" , fillcolor="#99ff99"] ;
+4->8 [labeldistance=2.5, labelangle=-45, headlabel=">4.26365"] ;
+2 [ label="BRAF[44 138]" , fillcolor="#ffffff"] ;
+0->2 [labeldistance=2.5, labelangle=-45, headlabel=">2.0518"] ;
+9 [ label="Tau[20 138]" , fillcolor="#ffffff"] ;
+2->9 [labeldistance=2.5, labelangle=45, headlabel="<0.53115"] ;
+11 [ label="pGSK3B[19 48]" , fillcolor="#ff9999"] ;
+9->11 [labeldistance=2.5, labelangle=45, headlabel="<0.20495"] ;
+12 [ label="Tau[1 90]" , fillcolor="#ff9999"] ;
+9->12 [labeldistance=2.5, labelangle=-45, headlabel=">0.20495"] ;
+10 [ label="DYRK1A[24 0]" , fillcolor="#99ff99"] ;
+2->10 [labeldistance=2.5, labelangle=-45, headlabel=">0.53115"] ;
+}
